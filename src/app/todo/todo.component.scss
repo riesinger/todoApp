@@ -1,0 +1,11 @@
+li {
+  line-height: 2;
+  color: #222222;
+  cursor: pointer;
+  user-select: none;
+
+  &.done {
+    text-decoration: line-through;
+    color: #666666;
+  }
+}
